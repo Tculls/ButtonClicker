@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    padding: 10px;
+    background: rgb(204,204,204);
+    color: rgb(5,5,5);
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px 0px 70px;
+    height: 55px;  
+}
+.nav-title{
+    margin: 40px;
+}
+.form-element {
+    box-sizing: border-box;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchstyle{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.textfield {
+    width: 50%;
+} 
+  .textfield > input {
+    border: 2px solid rgb(48,48,48);
+    width: 50%;
+}
+#LogInbtn{
+    width: 70px;
+    padding: 5px;
+    margin: 30px;
+    background-color: rgb(43,120,228);
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+    color: whitesmoke;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    margin: 20px 50px 20px 50px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.column2{
+    margin: 40px 50px 20px;
+    flex-direction: column;
+}
+.word1{
+    background-color: whitesmoke;
+    border: 2px solid rgb(48,48,48);
+    margin:20px;
+    padding: 10px;
+    display: flex;
+    
+}
+.word2{
+    background-color: whitesmoke;
+    border: 2px solid rgb(48,48,48);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+.dojoisyou{
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(48,48,48);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.definition{
+    padding: 10px;
+    margin: 50px;
+}
+.likebtn{
+    background-color: rgb(255,217,102);
+    float: right;
+    padding: 6px;
+    margin: 10px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 5px 5px 5px black;
+}
+#hiddenId{
+    background-color: rgb(147,196,125);
+    justify-content: center;
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 5px 5px 5px black;
+}
+.leftgrp{
+    display: flex;
+    flex-direction: column;
+}

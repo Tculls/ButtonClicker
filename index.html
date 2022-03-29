@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,51 @@
     <link rel="stylesheet" alt="text/css" href="style.css">
     <title>Button Clicker</title>
 </head>
-<body>
-    
 
-<script src="script.js"></script>
+<body>
+    <div class="container">
+        <!-- NAV BAR -->
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <div class="form-element textfield">
+                <input type="text" class="searchstyle" placeholder="Search">
+                <input onclick="change()" type="button" value="Log-In" id="LogInbtn"></input>
+            </div>
+        </div>
+        <!-- ninja definition 1 -->
+        <div class="main-content">
+            <div class="column1">
+                <div class="word1"> 
+                    <div class="leftgrp">
+                        <h2>ninja</h2>
+                        <i class="noun">noun</i>
+                        <p class="plural">Plural:ninjas</p>
+                        <button class="likebtn"onclick="alert('ninja was liked')">21Likes</button>
+                    </div>
+                    <p class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a
+                            href="#">ninjutsu</a></p>
+                </div>
+                <!-- ninja definition 2 -->
+                <div class="word2">
+                    <div class="leftgrp">
+                        <h2>ninja</h2>
+                        <i class="noun">noun</i>
+                        <p class="plural">Plural:ninjas</p>
+                        <button class="likebtn" onclick="alert('ninja was liked')">13 Likes</button>
+                    </div>
+                    <p class="definition">A <a href="#"> programmer</a> who breaks down problems with <a
+                            href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <!-- flex box Dojonary is defined by you -->
+            <div class="column2">
+                <div class="dojoisyou">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <input onclick="addWord(this)" type="button" value="Add Definition" id="hiddenId"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
